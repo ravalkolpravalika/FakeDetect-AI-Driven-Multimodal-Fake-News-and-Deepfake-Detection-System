@@ -40,35 +40,6 @@ The proposed architecture consists of three independent detection pipelines:
 
 Each module generates a prediction score, which is combined through a weighted multimodal fusion layer to produce the final verdict.
 
----
-
-## Repository Structure
-
-```text
-FakeDetect
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── models
-│   ├── bert_model
-│   ├── image_model_v3.pth
-│   └── video_model_v3.pth
-│
-├── notebooks
-│
-├── images
-│   ├── homepage.png
-│   ├── system_architecture.png
-│   ├── bert_workflow.png
-│   ├── efficientnet_workflow.png
-│   └── gradcam_results.png
-│
-├── Project_Report.pdf
-├── FakeDetect_Presentation.pdf
-└── LICENSE
-```
 
 ---
 
@@ -108,7 +79,7 @@ Dataset Links
 - Deepfake vs Real Images: https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
 - 140K Real and Fake Faces: https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces
 - AI Generated vs Real Images: https://www.kaggle.com/datasets/cashbowman/ai-generated-images-vs-real-images
-- Real/Fake Video Dataset: Add your dataset link here
+- Real/Fake Video Dataset: https://www.kaggle.com/datasets/mohammadsarfrazalam/realfake-video-dataset
 
 ---
 
@@ -122,40 +93,6 @@ Dataset Links
 
 ---
 
-## Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/FakeDetect.git
-```
-
-Navigate to the project directory.
-
-```bash
-cd FakeDetect
-```
-
-Install the required dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the Application
-
-Start the Streamlit application.
-
-```bash
-streamlit run app.py
-```
-
-The application will launch in your default web browser.
-
----
-
 ## Download Required Files
 
 Some files are hosted externally because they exceed GitHub's file size limit.
@@ -164,7 +101,7 @@ Some files are hosted externally because they exceed GitHub's file size limit.
 
 Download:
 
-Google Drive Link
+https://drive.google.com/file/d/1ly5IKEebgaIOsdapYb105VvxpkbsajhY/view?usp=sharing
 
 Place the downloaded files inside:
 
@@ -178,8 +115,7 @@ models/bert_model/
 
 Project demonstration video:
 
-Google Drive Link
-
+https://drive.google.com/file/d/1Sm70r5IAE4iVlW2FN_EAn7YJ8oj883Ih/view?usp=drive_link
 ---
 
 ## Applications
@@ -204,24 +140,11 @@ Google Drive Link
 
 ---
 
-## Citation
-
-If you use this repository for academic or research purposes, please cite:
-
-```
-FakeDetect: AI-Driven Multimodal Fake News and Deepfake Detection System
-Bachelor of Technology Project
-Department of Artificial Intelligence and Data Science
-```
-
----
-
 ## Author
 
-**Your Name**
+**Pravalika Ravalkol**
 
-Bachelor of Technology in Artificial Intelligence and Data Science
-
+MSc Computer Science
 Final Year Major Project
 
 ---
