@@ -103,11 +103,6 @@ Download:
 
 https://drive.google.com/file/d/1ly5IKEebgaIOsdapYb105VvxpkbsajhY/view?usp=sharing
 
-Place the downloaded files inside:
-
-```text
-models/bert_model/
-```
 
 ---
 
