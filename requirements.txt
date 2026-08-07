@@ -1,7 +1,6 @@
 1. Hardware Requirements 
 • Processor: Intel Core i5/i7 (11th Gen or above) or AMD Ryzen 5/7 equivalent 
-• GPU: NVIDIA GPU with CUDA support (e.g., GTX 1650 / RTX 3050 or above) - 
-optional but recommended 
+• GPU: NVIDIA GPU with CUDA support (e.g., GTX 1650 / RTX 3050 or above) - optional but recommended 
 • RAM: Minimum 8 GB (16 GB recommended) 
 • Storage: Minimum 256 GB SSD (512 GB SSD recommended) 
 • System Type: 64-bit Operating System, x64-based processor 
@@ -22,14 +21,9 @@ optional but recommended
 • Cloud Storage: Google Drive 
 
 3. Dataset Requirements 
-• Fake and Real News Dataset - 44,898 labelled news articles (Fake.csv + True.csv) - 
-used for BERT training 
-• LIAR Dataset - 12,836 political statements (train.tsv, valid.tsv, test.tsv) - used as 
-secondary text dataset 
+• Fake and Real News Dataset - 44,898 labelled news articles (Fake.csv + True.csv) - used for BERT training 
+• LIAR Dataset - 12,836 political statements (train.tsv, valid.tsv, test.tsv) - used as secondary text dataset 
 • Deepfake vs Real 60K - 190,335 face images - used for CNN image training 
-• 140K Real and Fake Faces - 140,000 StyleGAN and real face images - used to 
-improve AI-generated face detection 
-• AI-Generated vs Real - 48,000 diverse AI-generated and real images - used to extend 
-CNN generalisation 
-• Real/Fake Video Dataset - 872 video clips - used for video deepfake detection fine
-tuning 
+• 140K Real and Fake Faces - 140,000 StyleGAN and real face images - used to improve AI-generated face detection 
+• AI-Generated vs Real - 48,000 diverse AI-generated and real images - used to extend CNN generalisation 
+• Real/Fake Video Dataset - 872 video clips - used for video deepfake detection fine tuning 
