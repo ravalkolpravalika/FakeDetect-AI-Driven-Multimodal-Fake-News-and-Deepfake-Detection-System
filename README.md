@@ -29,7 +29,8 @@ The application is deployed using Streamlit, enabling real-time detection throug
 ## System Architecture
 
 <p align="center">
-<img src="images/FakeDetect Taxonomy.png" width="950">
+<img src="images/FakeDetect Taxonomy.png
+" width="950">
 </p>
 
 The proposed architecture consists of three independent detection pipelines:
