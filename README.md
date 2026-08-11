@@ -182,30 +182,75 @@ The repository contains the application code, trained CNN models, notebooks, doc
 ```text
 FakeDetect/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
+├── app/
+│   ├── app_screenshots/
+│   │   ├── About.png
+│   │   ├── Detection.png
+│   │   ├── Features.png
+│   │   ├── Home.png
+│   │   ├── Statistics.png
+│   │   └── Technology.png
+│   │
+│   └── streamlit_app.py
 │
-├── models/
-│   ├── efficientnet_v3_best.pth
-│   ├── efficientnet_v2_best.pth
-│   ├── efficientnet_video_finetuned.pth
-│   └── efficientnet_combined_final.pth
-│
-├── notebooks/
-│   ├── fake_news_model.ipynb
-│   ├── deepfake_model.ipynb
-│   ├── fusion_model.ipynb
-│   └── streamlit_app.ipynb
+├── documentation/
+│   ├── Documentation.pdf
+│   └── FakeDetect Project PPT.pdf
 │
 ├── images/
-│   ├── homepage.png
-│   ├── architecture.png
-│   └── gradcam_results.png
+│   ├── Architecture Overview.png
+│   ├── BERT layer.png
+│   ├── Efficientnet layer.png
+│   ├── Fake&Deepfake Intro.png
+│   ├── FakeDetect Taxonomy.png
+│   ├── Input layer.png
+│   ├── Multimodal layer.png
+│   ├── Overall FakeDetect System.png
+│   ├── Preprocessing layer2.png
+│   ├── Proposed system.png
+│   ├── Tools&Technologies.png
+│   ├── bert workflow.png
+│   ├── cover_page.png
+│   ├── efficientnet workflow.png
+│   ├── fake_news.png
+│   ├── hero_image.png
+│   ├── image_detect.png
+│   ├── logo1.png
+│   └── video_detect.png
 │
-├── Project_Report.pdf
-└── FakeDetect_Presentation.pptx
+├── models/
+│   ├── bert_model/
+│   │   ├── config.json
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.txt
+│   │
+│   └── cnn_model/
+│       ├── efficientnet_combined_final...
+│       ├── efficientnet_v2_best.pth
+│       ├── efficientnet_v3_best.pth
+│       └── efficientnet_video_finetuned...
+│
+├── notebooks/
+│   ├── 01_fake_news_model.ipynb
+│   ├── 02_deepfake_model.ipynb
+│   ├── 03_combined_cnn_training.ipynb
+│   ├── 04_AI_CGI_Training.ipynb
+│   ├── 05_fusion_model.ipynb
+│   └── 06_streamlit_app.ipynb
+│
+├── results/
+│   ├── Image_Detection_1.png
+│   ├── Image_Detection_2.png
+│   ├── Text_Detection.png
+│   ├── V3_Confusion_Matrix.png
+│   ├── Video_Detection.png
+│   ├── ...
+│   └── video_finetuned_confusion.png
+│
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 
@@ -328,6 +373,11 @@ The fusion mechanism combines the available prediction scores using predefined w
   <img src="app/app_screenshots/Detection.png" alt="Detection Page" width="900">
 </p>
 
+### Features
+
+<p align="center">
+  <img src="app/app_screenshots/Features.png" alt="FakeDetect Features" width="900">
+</p>
 
 ### Grad-CAM Visualization
 
@@ -342,7 +392,7 @@ The fusion mechanism combines the available prediction scores using predefined w
 A working demonstration of the FakeDetect application is available through the project demo video.
 
 **Demo Video:**  
-Add your Google Drive or YouTube link here.
+https://drive.google.com/file/d/1Sm70r5IAE4iVlW2FN_EAn7YJ8oj883Ih/view?usp=drive_link
 
 The demonstration covers the major components of the application, including:
 
