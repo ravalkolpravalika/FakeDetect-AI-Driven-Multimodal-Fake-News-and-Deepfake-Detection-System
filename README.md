@@ -1,7 +1,7 @@
 # FakeDetect: AI-Driven Multimodal Fake News and Deepfake Detection System
 
 <p align="center">
-  <img src="images/homepage.png" alt="FakeDetect Streamlit Application" width="950">
+  <img src="images/cover_page.png" alt="FakeDetect Streamlit Application" width="950">
 </p>
 
 <p align="center">
