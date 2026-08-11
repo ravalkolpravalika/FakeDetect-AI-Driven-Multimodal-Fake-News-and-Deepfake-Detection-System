@@ -57,28 +57,9 @@ When multiple modalities are available, their prediction scores are combined usi
 
 A simplified representation of the workflow is:
 
-```text
-                User Input
-             /      |       \
-            /       |        \
-         Text     Image      Video
-           |         |          |
-          BERT   EfficientNet  Frame
-           |         |       Extraction
-           |         |          |
-           |      CNN Model   CNN Model
-           |         |          |
-           +---------+----------+
-                     |
-              Multimodal Fusion
-                     |
-                     v
-              Final Assessment
-                     |
-          +----------+----------+
-          |                     |
-        REAL                   FAKE
-```
+<p align="center">
+  <img src="images/FakeDetect Taxonomy.png" alt="FakeDetect Architecture" width="950">
+</p>
 
 ---
 
