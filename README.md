@@ -208,7 +208,6 @@ FakeDetect/
 └── FakeDetect_Presentation.pptx
 ```
 
-> The exact folder and file names in this section should match the final repository structure.
 
 ---
 
@@ -320,16 +319,15 @@ The fusion mechanism combines the available prediction scores using predefined w
 ### Home Page
 
 <p align="center">
-  <img src="images/homepage.png" alt="FakeDetect Home Page" width="900">
+  <img src="app/app_screenshots/Home.png" alt="FakeDetect Home Page" width="900">
 </p>
 
 ### Detection Interface
 
-Add a screenshot of the text, image, video, or fusion detection interface here.
+<p align="center">
+  <img src="app/app_screenshots/Detection.png" alt="Detection Page" width="900">
+</p>
 
-```text
-images/detection.png
-```
 
 ### Grad-CAM Visualization
 
