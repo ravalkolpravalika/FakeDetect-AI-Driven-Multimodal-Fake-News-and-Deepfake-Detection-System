@@ -332,7 +332,7 @@ The fusion mechanism combines the available prediction scores using predefined w
 ### Grad-CAM Visualization
 
 <p align="center">
-  <img src="images/gradcam_results.png" alt="Grad-CAM Visualization" width="900">
+  <img src="results/gradcam_results.png" alt="Grad-CAM Visualization" width="900">
 </p>
 
 ---
